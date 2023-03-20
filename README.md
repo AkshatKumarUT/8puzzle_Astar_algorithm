@@ -7,3 +7,4 @@ A* algorithm is an informed search or a best-first search that uses a heuristic 
 The path cost for a specific node n is calculated by combining two factors: the cost of the path from the start node to the node n (notated as g(n)), and an estimated cost (using a heuristic function) from the node to the goal (notated as h(n)).
 
 Therefore the path cost is calculated using:
+f(n) = g(n) + h(n)
